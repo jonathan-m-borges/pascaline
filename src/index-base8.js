@@ -150,11 +150,10 @@ Digito.prototype = {
 
 
 $(document).ready(function () {
-    //Inicialize
     Context.create("canvas");
-    Context.add(new Digito({ x: 50, y: 50, base:  10 }));
-    Context.add(new Digito({ x: 250, y: 50, base: 10, digitoLeft: Context.objects[0] }));
-    Context.add(new Digito({ x: 450, y: 50, base: 10, digitoLeft: Context.objects[1] }));
-    Context.add(new Digito({ x: 650, y: 50, base: 10, digitoLeft: Context.objects[2] }));
+    Context.add(new Digito({ x: 50, y: 50, base:  8 }));
+    Context.add(new Digito({ x: 250, y: 50, base: 8, digitoLeft: Context.objects[0] }));
+    Context.add(new Digito({ x: 450, y: 50, base: 8, digitoLeft: Context.objects[1] }));
+    Context.add(new Digito({ x: 650, y: 50, base: 8, digitoLeft: Context.objects[2] }));
     Context.play();
 });
