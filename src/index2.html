@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>La pascaline</title>
+</head>
+
+<body style="min-width: 1024px;">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">La pascaline</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Base numérica</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Base 10 - versão original</a>
+                        <a class="dropdown-item" href="#">Base 2 - variação didática</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main">
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-3">La pascaline</h1>
+                <p>Blaise Pascal (1623-1662) construiu em 1642 a primeira máquina de calcular do mundo, baseada em
+                    engrenagens e alavancas, e que permitia fazer adições e subtrações. Abaixo é apresentado uma
+                    aplicação didática para facilitar o entendimento da <strong>pascaline</strong> e de <strong>sistemas
+                        de numeração</strong>.</p>
+                <p><a class="btn btn-primary btn-lg" href="https://pt.wikipedia.org/wiki/La_pascaline" target="_blank"
+                        role="button">Mais detalhes sobre Pascaline</a></p>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Pascaline - Base numérica 10</h2>
+            <canvas id="canvas" width="1000" height="500"
+                style="border: 1px solid black; width:1000px; height:500px"></canvas>
+        </div>
+
+    </main>
+
+    <footer class="container pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <p>Desenvolvido por:<br>
+                    &copy; <a href="https://github.com/jonathan-m-borges">Jonathan M Borges</a> - 2017
+                </p>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Sistemas de numeração</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">La pascaline</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Arquitetura de Computadores</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="https://github.com/jonathan-m-borges/mmaismais">CPU didática 8 bits
+                            (M++)</a></li>
+                    <li><a class="text-muted" href="http://www.inf.furb.br/~maw/mmaismais/">Artigo M++</a></li>
+                    <li><a class="text-muted" href="http://www.inf.furb.br/~maw//">Professor Miguel Wisintainer</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
